@@ -7,10 +7,8 @@ var shuffleme = (function( $ ) {
   init = function() {
 
     // None of these need to be executed synchronously
-    setTimeout(function() {
       listen();
       setupFilters();
-    }, 100);
 
     // instantiate the plugin
     $grid.shuffle({

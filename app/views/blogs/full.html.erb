@@ -1,2 +1,115 @@
-<h1>Blogs#full</h1>
-<p>Find me in app/views/blogs/full.html.erb</p>
+<!-- header-banner -->
+    <div id="header-banner">
+        <div class="banner-content single-page text-center">
+            <div class="banner-info">
+                <h1>BLOG</h1>
+                <p>Our latest blog posts.</p>
+            </div><!-- / banner-info -->
+        </div><!-- / banner-content -->
+    </div>
+    <!-- / header-banner -->
+
+<!-- content -->
+
+<div id="page-content" class="container">
+    <!-- blog full-width -->
+    <section id="blog">
+        <div class="row">
+            <!-- blog content area -->
+            <div class="col-xs-12">
+                <div class="blog block post-content-area">
+                  <%= image_tag "blog-post.jpg" %>
+                    <div class="post-info-box">
+                        <h3>IMAGE POST</h3>
+                        <p class="post-meta">Posted by <a href="#">Admin</a> in <a href="#">Blog</a> on <a href="#">Nov. 17, 2016</a></p>
+                        <p>Pellentesque pretium at justo iaculis vehicula. Aenean vestibulum purus a nulla sollicitudin molestie. Maecenas bibendum erat in erat maximus, vel imperdiet leo mattis. Integer vitae pellentesque massa. Fusce ac suscipit neque. Etiam justo risus, tristique id feugiat a, venenatis sed justo. Mauris aliquam venenatis nulla, et tincidunt enim fermentum ut. Aliquam mattis molestie est id condimentum.</p>
+                        <p>Nam porta lectus nec magna ullamcorper egestas eget at ex. In sit amet dolor vitae felis condimentum rutrum eget ut neque. Curabitur sagittis quam sodales, consequat urna sit amet, porta mi.</p>
+                        <p class="blog-post-footer">
+                            <a href="single-post.html" class="btn btn-primary-filled"><span>Read More</span><i class="fa fa-long-arrow-right"></i></a>
+                            <span class="post-icons pull-right">
+                                <a href="#x"><i class="lnr lnr-thumbs-up"></i></a>
+                                <a href="#x"><i class="lnr lnr-bubble"></i></a>
+                            </span>
+                        </p><!-- / blog-post-footer -->
+                    </div><!-- / post-info-box -->
+                </div><!-- / blog-block -->
+
+                <div class="space-50">&nbsp;</div>
+
+                <div class="blog block post-content-area">
+                    <div id="blog-carousel" class="carousel slide" data-ride="carousel">
+                        <!-- wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                              <%= image_tag "blog-post.jpg" %>
+                            </div>
+                            <div class="item">
+                              <%= image_tag "blog-post.jpg" %>
+                            </div>
+                            <div class="item">
+                              <%= image_tag "blog-post.jpg" %>
+                            </div>
+                        </div>
+                        <!-- / wrapper for slides -->
+
+                        <!-- controls -->
+                        <a class="left carousel-control" href="#blog-carousel" role="button" data-slide="prev">
+                            <span class="lnr lnr-chevron-left" aria-hidden="true"></span>
+                        </a>
+                        <a class="right carousel-control" href="#blog-carousel" role="button" data-slide="next">
+                            <span class="lnr lnr-chevron-right" aria-hidden="true"></span>
+                        </a>
+                        <!-- / controls -->
+
+                    </div><!-- / blog-carousel -->
+                    <div class="post-info-box">
+                        <h3>SLIDER POST</h3>
+                        <p class="post-meta">Posted by <a href="#">Admin</a> in <a href="#">Design</a> on <a href="#">Nov. 16, 2016</a></p>
+                        <p>Pellentesque pretium at justo iaculis vehicula. Aenean vestibulum purus a nulla sollicitudin molestie. Maecenas bibendum erat in erat maximus, vel imperdiet leo mattis. Integer vitae pellentesque massa. Fusce ac suscipit neque. Etiam justo risus, tristique id feugiat a, venenatis sed justo. Mauris aliquam venenatis nulla, et tincidunt enim fermentum ut. Aliquam mattis molestie est id condimentum.</p>
+                        <p>Nam porta lectus nec magna ullamcorper egestas eget at ex. In sit amet dolor vitae felis condimentum rutrum eget ut neque. Curabitur sagittis quam sodales, consequat urna sit amet, porta mi.</p>
+                        <p class="blog-post-footer">
+                            <a href="single-post.html" class="btn btn-primary-filled"><span>Read More</span><i class="fa fa-long-arrow-right"></i></a>
+                            <span class="post-icons pull-right">
+                                <a href="#x"><i class="lnr lnr-thumbs-up"></i></a>
+                                <a href="#x"><i class="lnr lnr-bubble"></i></a>
+                            </span>
+                        </p><!-- / blog-post-footer -->
+                    </div><!-- / post-info-box -->
+                </div><!-- / blog-block -->
+
+                <div class="space-50">&nbsp;</div>
+
+                <div class="blog block post-content-area">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://player.vimeo.com/video/47845783" allowfullscreen></iframe>
+                    </div>
+                    <div class="post-info-box">
+                        <h3>VIDEO POST</h3>
+                        <p class="post-meta">Posted by <a href="#">Admin</a> in <a href="#">Videography</a> on <a href="#">Nov. 15, 2016</a></p>
+                        <p>Pellentesque pretium at justo iaculis vehicula. Aenean vestibulum purus a nulla sollicitudin molestie. Maecenas bibendum erat in erat maximus, vel imperdiet leo mattis. Integer vitae pellentesque massa. Fusce ac suscipit neque. Etiam justo risus, tristique id feugiat a, venenatis sed justo. Mauris aliquam venenatis nulla, et tincidunt enim fermentum ut. Aliquam mattis molestie est id condimentum.</p>
+                        <p>Nam porta lectus nec magna ullamcorper egestas eget at ex. In sit amet dolor vitae felis condimentum rutrum eget ut neque. Curabitur sagittis quam sodales, consequat urna sit amet, porta mi.</p>
+                        <p class="blog-post-footer">
+                            <a href="single-post.html" class="btn btn-primary-filled"><span>Read More</span><i class="fa fa-long-arrow-right"></i></a>
+                            <span class="post-icons pull-right">
+                                <a href="#x"><i class="lnr lnr-thumbs-up"></i></a>
+                                <a href="#x"><i class="lnr lnr-bubble"></i></a>
+                            </span>
+                        </p><!-- / blog-post-footer -->
+                    </div><!-- / post-info-box -->
+                </div><!-- / blog-block -->
+
+            </div><!-- / col-xs-12 -->
+            <!-- / blog content area -->
+        </div><!-- / row -->
+    </section>
+    <!-- / blog content + sidebar -->
+
+    <!-- pagination -->
+    <div class="pagination">
+        <a href="#x" class="btn btn-direction btn-default-filled"><i class="fa fa-long-arrow-left"></i><span>Previous Page</span></a>
+        <a href="#x" class="btn btn-direction btn-default-filled pull-right"><span>Next Page</span><i class="fa fa-long-arrow-right"></i></a>
+    </div><!-- / pagination -->
+
+</div><!-- / container -->
+
+<!-- / content -->

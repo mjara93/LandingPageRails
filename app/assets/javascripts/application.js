@@ -16,11 +16,12 @@
 //= require validator.min
 //= require bootstrap.min
 //= require jquery.easing.min
-//= require custom
+//= require map
+//= require form-scripts
+//= stub custom
 //= require jquery.shuffle.min
 //= require jquery.magnific-popup
 //= require jquery.magnific-popup.min
-//= require form-scripts
 //= require jquery.countTo
 //= require preloader
 //= require_tree .

@@ -1,0 +1,25 @@
+<!-- footer -->
+<footer>
+    <div class="container">
+        <p class="footer-info">© MP - MINIMAL PORTFOLIO
+            <span class="social pull-right">
+                <a href="#x"><i class="fa fa-facebook"></i></a>
+                <a href="#x"><i class="fa fa-twitter"></i></a>
+                <a href="#x"><i class="fa fa-instagram"></i></a>
+            </span>
+        </p>
+    </div><!-- / container -->
+</footer>
+<!-- / footer -->
+<script type="text/javascript">
+// This will create a single gallery from all elements that have class "lightbox"
+$('.lightbox').each(function() {
+    $(this).magnificPopup({
+        delegate: 'a.open-gallery', // the selector for gallery item
+        type: 'image',
+        gallery: {
+          enabled:true
+        }
+    });
+});
+</script>
